@@ -1,0 +1,194 @@
+html {
+  background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+}
+
+/* Tables
+  =============== */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  max-width: 100%; }
+
+thead th {
+  border-bottom: 2px solid #dedede; }
+
+tfoot th {
+  border-top: 2px solid #dedede; }
+
+td {
+  border-bottom: 1px solid #dedede; }
+
+th,
+td {
+  text-align: left;
+  padding: .5rem; }
+
+/* Buttons
+  =============== */
+.button, a.button, button, [type=submit], [type=reset], [type=button] {
+  -webkit-appearance: none;
+  display: inline-block;
+  border: 1px solid rgb(106, 209, 209);
+  border-radius: 4px;
+  background: rgb(25, 161, 105);
+  color: #ffffff;
+  font-weight: 600;
+  font-family: -apple-system, BlinkMacSystemFont, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 1rem;
+  text-transform: none;
+  padding: .75rem 1.25rem;
+  margin: 0 0 .5rem 0;
+  vertical-align: middle;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+  line-height: 1; }
+
+.button:hover, a.button:hover, button:hover, [type=submit]:hover, [type=reset]:hover, [type=button]:hover {
+  border: 1px solid #1ce76a;
+  background: #12df7f;
+  color: #ffffff;
+  text-decoration: none; }
+
+.button:focus, .button:active, a.button:focus, a.button:active, button:focus, button:active, [type=submit]:focus, [type=submit]:active, [type=reset]:focus, [type=reset]:active, [type=button]:focus, [type=button]:active {
+  border: 1px solid #02bc40;
+  background: #16d384;
+  color: #ffffff;
+  text-decoration: none; }
+
+.button::-moz-focus-inner, a.button::-moz-focus-inner, button::-moz-focus-inner, [type=submit]::-moz-focus-inner, [type=reset]::-moz-focus-inner, [type=button]::-moz-focus-inner {
+  border: 0;
+  padding: 0; }
+
+.accent-button,
+a.accent-button {
+  color: #ffffff;
+  border: 1px solid #29de7d;
+  background: #29de7d; }
+  .accent-button:hover, .accent-button:focus, .accent-button:active,
+  a.accent-button:hover,
+  a.accent-button:focus,
+  a.accent-button:active {
+    color: #ffffff;
+    border: 1px solid #1cb864;
+    background: #1cb864; }
+
+.muted-button,
+a.muted-button {
+  background: transparent;
+  border: 1px solid #cdcdcd;
+  color: #4e4e4e; }
+  .muted-button:hover, .muted-button:focus, .muted-button:active,
+  a.muted-button:hover,
+  a.muted-button:focus,
+  a.muted-button:active {
+    color: #4e4e4e;
+    border: 1px solid #818181;
+    background: transparent; }
+
+.round-button,
+a.round-button {
+  border-radius: 40px; }
+
+.square-button,
+a.square-button {
+  border-radius: 0; }
+
+.full-button,
+a.full-button {
+  display: block;
+  width: 100%; }
+ 
+.navbar {
+  min-height: 80px;
+}
+
+.navbar-brand {
+  font-size: 40px !important;
+}
+
+.nav-address {
+  display: inline-block;
+  margin-top: 23.25px;
+  color: white !important;
+}
+
+/* Custom styles */
+.navbar-custom {
+  background-color: rgb(36, 35, 35) !important;
+}
+
+.nav-link-custom {
+  color: #02bc40 !important;
+  margin-top: 20px;
+}
+
+.card-custom {
+  border-radius: 5px !important;
+}
+
+.card-header-custom {
+  background-color: rgb(44, 44, 44) !important;
+}
+
+.card-body-custom {
+  background-color: rgb(59, 59, 59);
+}
+
+.spinner-custom {
+  position: absolute; 
+}
+
+.table-custom {
+  background-color: rgb(37, 36, 36) !important;
+  border-radius: 10px !important;
+  box-shadow: 2.5px 2.5px 2.5px 2.5px rgb(44, 44, 44) !important;
+}
+
+.balance-table-custom {
+  background-color: rgb(59, 59, 59);
+}
+
+.h4-custom {
+  /* text-align: center; */
+  font-weight: bold;
+}
+
+.button-custom {
+  background-color: rgb(28, 154, 168) !important;
+  font-weight: bold;
+}
+
+.button-buy {
+  background-color: #45b341 !important;
+  font-weight: bold;
+}
+
+.button-sell {
+  background-color: rgb(172, 25, 25) !important;
+  font-weight: bold;
+}
+
+.input-custom {
+  background-color: rgb(37, 36, 36) !important;
+  font-weight: bold;
+}
+
+.app-container {
+  background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+}
+
+.input-listLand {
+  padding: 6px;
+  position: relative;
+  bottom: 2px;
+  border: solid;
+  border-color: lightgray;
+  border-radius: 5px;
+}
+
+.form-control {
+  border: solid;
+  border-color: lightgray;
+}
